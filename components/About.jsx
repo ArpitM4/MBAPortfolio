@@ -136,16 +136,15 @@ export default function About() {
 
       {/* Profile Image Section */}
       <section className="w-full bg-gray-100 py-20 px-4 md:px-8 lg:px-16">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-md mx-auto">
           <div
             className={`w-full transition-all duration-1500 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
               }`}
           >
-            <div className="relative w-full aspect-video overflow-hidden rounded-2xl shadow-2xl bg-gray-100">
+            <div className="relative w-full aspect-square overflow-hidden rounded-2xl shadow-2xl bg-gray-100">
               <div
                 ref={imageRef}
                 className="absolute inset-0 transition-transform duration-300 ease-out"
-                style={{ transform: `scale(${scrollScale})` }}
               >
                 <Image
                   src="/profile.png"
@@ -153,7 +152,7 @@ export default function About() {
                   fill
                   className="object-cover object-center"
                   priority
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1000px"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 500px"
                 />
               </div>
               <div className="absolute inset-0 bg-linear-to-t from-black/10 via-transparent to-transparent pointer-events-none" />
