@@ -182,7 +182,7 @@ export default function Navbar() {
               </p>
               <div className="flex gap-6 max-[500px]:flex-col max-[500px]:gap-3">
                 <a
-                  href="https://www.linkedin.com/in/"
+                  href="https://www.linkedin.com/in/aditi-jatav-686bb6317"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-base font-medium text-black hover:text-gray-600 transition-colors duration-300"
@@ -190,7 +190,7 @@ export default function Navbar() {
                   LinkedIn
                 </a>
                 <a
-                  href="mailto:placements@iimsirmaur.ac.in"
+                  href="mailto:mba24168@iimsirmaur.ac.in"
                   className="text-base font-medium text-black hover:text-gray-600 transition-colors duration-300"
                 >
                   Email

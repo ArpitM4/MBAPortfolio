@@ -100,34 +100,8 @@ export default function About() {
           <br />
           <br />
 
-          {/* Download Resume Button - Keeping this as an option */}
-          <div
-            className={`transition-all duration-1000 delay-600 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-              }`}
-          >
-            <a
-              href="/AditiJatav-Resume.pdf"
-              download="AditiJatav-Resume.pdf"
-              className="group relative inline-flex items-center gap-2 min-[1080px]:gap-3 px-5 py-2.5 min-[1080px]:px-8 min-[1080px]:py-4 bg-[#f5f5f5] text-black rounded-full overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl"
-            >
-              {/* Animated background */}
-              <span className="absolute inset-0 bg-gradient-to-r from-[#e8e8e8] via-[#d8d8d8] to-[#c8c8c8] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
 
-              {/* Button content */}
-              <span className="relative z-10 font-medium text-sm min-[1080px]:text-lg">Download CV</span>
 
-              {/* Download icon with animation */}
-              <svg
-                className="relative z-10 w-4 h-4 min-[1080px]:w-5 min-[1080px]:h-5 transition-all duration-300 group-hover:translate-y-1"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                strokeWidth={2}
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-              </svg>
-            </a>
-          </div>
         </div>
 
         {/* Bottom Section - Scroll to Explore */}
